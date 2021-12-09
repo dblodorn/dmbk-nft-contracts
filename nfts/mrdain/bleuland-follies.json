@@ -1,9 +1,22 @@
 {
   "name": "Bleuland Follies",
   "description": "Entering a nonfunctional building once created to enhance a natural landscape.",
-  "external_url": "https://auction.holly.plus/[NFT TokenId]",
-  "image": "",
-  "animation_url": "",
-  "mimeType": "audio/wav",
-  "creator": "Dain Blodorn"
-  }
+  "external_url": "https://bleuland-follies.dain.kim",
+  "image": "https://wxujrplxtmad3h7tlap6ctcsuaji5yyrkzkghgyuoi74gs4rd6ta.arweave.net/teiYvXebAD2f81gf4UxSoBKO4xFWVGObFHI_w0uRH6Y",
+  "animation_url": "https://nkamhycebq66amudevbv2dqcskymd7wimomwr32xlacd453vuy3q.arweave.net/aoDD4EQMPeAygyVDXQ4CkrDB_shjmWjvV1gEPnd1pjc",
+  "mimeType": "audio/mp3",
+  "traits": [
+    {
+      "trait_type": "Collection",
+      "value": "Bleuland Follies"
+    },
+    {
+      "trait_type": "Track Number",
+      "value": "1"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "Dain Blodorn Kim"
+    }
+  ]
+}
