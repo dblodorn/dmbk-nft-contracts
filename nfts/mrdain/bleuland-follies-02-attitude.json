@@ -1,0 +1,21 @@
+{
+  "traits": [
+    {
+      "trait_type": "Collection",
+      "value": "Bleuland Follies"
+    },
+    {
+      "trait_type": "Track Number",
+      "value": "2"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "Dain Blodorn Kim"
+    }
+  ],
+  "name": "Attitude",
+  "description": "Walking down the street on foggy, drizzler of a day.",
+  "mimeType": "audio/mp3",
+  "animation_url": "ipfs://QmQGRmqXATd1HjayCpJJyVq1UQRLLc3Z4UMGroAPjeBBHV",
+  "image": "ipfs://Qmef6wXBgQmkrJKHJLdna3jsvLujXoKr2c9JR9MSQS4FRG"
+}

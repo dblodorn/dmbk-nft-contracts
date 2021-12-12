@@ -1,0 +1,26 @@
+{
+  "traits": [
+    {
+      "trait_type": "Site",
+      "value": "Mono Lake Tufa State Natural Reserve"
+    },
+    {
+      "trait_type": "Latitude",
+      "value": "37.9774243"
+    },
+    {
+      "trait_type": "Longitude",
+      "value": "-119.13348"
+    },
+    {
+      "trait_type": "Elevation",
+      "value": "1949m"
+    }
+  ],
+  "name": "Mono Lake Tufa",
+  "description": "Montage of the Tufa conservation at Mono Lake, California. Mono Lake Tufa State Natural Reserve is located near Yosemite National Park within Mono County, in eastern California. It was established in 1981 by the California State Legislature to preserve the natural limestone 'tufa tower' formations at Mono Lake.",
+  "mimeType": "text/html",
+  "animation_url": "https://3rk7zvofhqyfjlcigg4tki6vseocthlvauaf23ursvc3jyoamfba.arweave.net/3FX81cU8MFSsSDG5NSPVkRwpnXUFAF1ukZVFtOHAYUI",
+  "image": "https://l44elkegqv4btr3znqhts6qw4h7yk6sbwcaj5zjyhbv7px27n4ka.arweave.net/XzhFqIaFeBnHeWwPOXoW4f-FekGwgJ7lODhr999fbxQ",
+  "is_dynamic": true
+}
