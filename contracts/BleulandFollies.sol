@@ -33,7 +33,7 @@ contract BleulandFollies is ERC721Delegated {
         ERC721Delegated(
           baseFactory,
           "Bleuland Follies",
-          "BLAND",
+          "BLEULAND",
           ConfigSettings({
             royaltyBps: 1000,
             uriBase: "",
@@ -49,12 +49,9 @@ contract BleulandFollies is ERC721Delegated {
         atId.increment();
     }
 
-    function burn(uint256 tokenId) external onlyOwner {
-        require(_exists(tokenId));
-        _burn(tokenId);
-    }
-
     function tokenURI(uint256 id) external view returns (string memory) {
         return myUris[id];
     }
+
+    string public contractInfo = 'ipfs://QmXBAyvBCZ8WErGqTjKSWQztB4zRMsEtf3T5ZuBzBTDP3z';
 }
