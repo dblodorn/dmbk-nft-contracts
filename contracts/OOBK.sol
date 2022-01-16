@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: GPL-3.0
 
-/** OOBK ~ Oskar Oak Blodorn Kim's Block (-:
+/** OOBK ~ Oskar's Spot on the Block! (-:
+Made this for you my Son, hope you have some
+FUN with it in your future (-;
+LOVE DMBK!
                    ___       ___         
                   (   )     (   )        
   .--.     .--.    | |.-.    | |   ___   
@@ -28,7 +31,7 @@ contract OOBK is ERC721Delegated {
     
     mapping(uint256 => string) private myUris;
 
-    string public contractURIData = 'https://gateway.pinata.cloud/ipfs/QmW8BXyARdoB6i35eUJAvEqreCGV9QVU1nbK9q3G5u7Kfj';
+    string public contractURI = 'https://ipfs.io/ipfs/QmW8BXyARdoB6i35eUJAvEqreCGV9QVU1nbK9q3G5u7Kfj';
 
     constructor(
         IBaseERC721Interface baseFactory
@@ -56,17 +59,7 @@ contract OOBK is ERC721Delegated {
         return myUris[id];
     }
 
-    function burn(uint256 tokenId) external onlyOwner {
-        require(_exists(tokenId));
-        _burn(tokenId);
+    function updateContractURI(string memory _contractURI) external onlyOwner {
+      contractURI = _contractURI;
     }
-
-    function contractURI() public view returns (string memory) {
-        return contractURIData;
-    }
-
-    function updateContractURI(string memory _contractURIData) external onlyOwner {
-      contractURIData = _contractURIData;
-    }
-    
 }

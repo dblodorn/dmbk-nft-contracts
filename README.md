@@ -31,3 +31,8 @@ deploying "OOBK" (tx: 0x10fb8f659b73eda3d41be6f4aaaa15aadec663bb9472d1fbc2ef43e3
 
 // ADDED default contractURI and function to return contractURI = +143 gas
 deploying "OOBK" (tx: 0x1d6f9872e3dec8f1da7b6d7479b98f238ef1f2073e7666b91a376df69a69ad43)...: deployed at 0x8FfA7294889137344e6F967d2aeE2E5858a1db9C with 843233 gas
+
+// No Burn
+deploying "OOBK" (tx: 0x54f6cf7bb3bdf7206e4dd296f3af77bb8f0f04d8fd9cc805aff5c84738d49024)...: deployed at 0x6fe2915bf7C77D52fB53DCb7775DB935B0cfe517 with 742069 gas
+
+deploying "OOBK" (tx: 0xdc7f1388c2667377b28a49a404006971546ef929d205ced0b3180e3f6c0e644d)...: deployed at 0x1294E3eFe64f5c5eCA9E0c13dC8482fD454a8F49 with 702744 gas
