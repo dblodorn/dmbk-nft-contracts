@@ -15,3 +15,19 @@ deploying "BleulandFollies" (tx: 0x8dbb293b20df26dd4ae4c83d48f452c9cbb93628c7103
 
 // Third deploy with a massive chunk of onchain data:
 deploying "BleulandFollies" (tx: 0xf69163bb98c33aa5cb924700b2ea0c326894f031349772d7b21943a23c4045c8)...: deployed at 0x643143faf41173F720746714601648a90C2F22B4 with 13630107 gas
+
+deploy command:
+yarn hardhat deploy --network [network] --gas [limit: 629385 - or a little more] --gasprice 69 [is there a multiplyer]? --tags [contract name]
+
+// DerpyVision can edit contractURI
+deploying "DerpyVision" (tx: 0xe80fef0b28ccf3ed7ff3d2dcb958463cb4a5138fd9ed14375927a720fd3f5d7f)...: deployed at 0x6CD95f8807f32Df959542831FE2Aaaef29f18c9b with 647514 gas
+
+// Added burn
+deploying "DerpyVision" (tx: 0x6552badd5d5e8c045e20d746bff40b297cd76cf1f73a030ab4f443f475745acd)...: deployed at 0xa9D33B81ae39fdFC168A1D2B7C9a74DF35153cD6 with 709530 gas
+
+// OOBK
+TestNet:
+deploying "OOBK" (tx: 0x10fb8f659b73eda3d41be6f4aaaa15aadec663bb9472d1fbc2ef43e3e960969b)...: deployed at 0x66399E6B875d0C8B1daB7ECeBc0CcC5f832AeAa1 with 709632 gas
+
+// ADDED default contractURI and function to return contractURI = +143 gas
+deploying "OOBK" (tx: 0x1d6f9872e3dec8f1da7b6d7479b98f238ef1f2073e7666b91a376df69a69ad43)...: deployed at 0x8FfA7294889137344e6F967d2aeE2E5858a1db9C with 843233 gas

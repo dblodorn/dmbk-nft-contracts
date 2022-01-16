@@ -27,6 +27,8 @@ contract BleulandFollies is ERC721Delegated {
     
     mapping(uint256 => string) private myUris;
 
+    string public contractURIData;
+
     constructor(
         IBaseERC721Interface baseFactory
     )
@@ -53,5 +55,11 @@ contract BleulandFollies is ERC721Delegated {
         return myUris[id];
     }
 
-    string public contractInfo = 'ipfs://QmXBAyvBCZ8WErGqTjKSWQztB4zRMsEtf3T5ZuBzBTDP3z';
+    function updateContractURI(string memory _contractURIData) external onlyOwner {
+      contractURIData = _contractURIData;
+    }
+
+    function contractURI() public view returns (string memory) {
+        return contractURIData;
+    }
 }

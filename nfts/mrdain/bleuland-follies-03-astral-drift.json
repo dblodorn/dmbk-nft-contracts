@@ -1,0 +1,21 @@
+{
+  "traits": [
+    {
+      "trait_type": "Collection",
+      "value": "Bleuland Follies"
+    },
+    {
+      "trait_type": "Track Number",
+      "value": "3"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "Dain Blodorn Kim"
+    }
+  ],
+  "name": "Astral Drift",
+  "description": "The angst ridden flautist ambles on.",
+  "mimeType": "audio/mp3",
+  "animation_url": "ipfs://QmdYaPsLKaaPDHdgzjbriBCikZMuzjnyFMdmQtMoEx2DKx",
+  "image": "ipfs://Qmef6wXBgQmkrJKHJLdna3jsvLujXoKr2c9JR9MSQS4FRG"
+}

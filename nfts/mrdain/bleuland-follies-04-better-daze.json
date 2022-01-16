@@ -1,0 +1,21 @@
+{
+  "traits": [
+    {
+      "trait_type": "Collection",
+      "value": "Bleuland Follies"
+    },
+    {
+      "trait_type": "Track Number",
+      "value": "4"
+    },
+    {
+      "trait_type": "Artist",
+      "value": "Dain Blodorn Kim"
+    }
+  ],
+  "name": "Better Daze",
+  "description": "Harsh optimism.",
+  "mimeType": "audio/mp3",
+  "animation_url": "https://gateway.pinata.cloud/ipfs/QmUVZ2xW7aGrtAz96591WL8kEXcqt5aTC3tLbcnCEHfPcr/06-Better%20Daze.mp3",
+  "image": "ipfs://Qmef6wXBgQmkrJKHJLdna3jsvLujXoKr2c9JR9MSQS4FRG"
+}
