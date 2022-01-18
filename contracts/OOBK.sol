@@ -2,8 +2,7 @@
 
 /** OOBK ~ Oskar's Spot on the Block! (-:
 Made this for you my Son, hope you have some
-FUN with it in your future (-;
-LOVE DMBK!
+FUN with it in your future (-; ~ Love DMBK.
                    ___       ___         
                   (   )     (   )        
   .--.     .--.    | |.-.    | |   ___   
@@ -14,8 +13,55 @@ LOVE DMBK!
 | |  | | | |  | |  | |  | |  | | `. \    
 | '  | | | '  | |  | '  | |  | |   \ \   
 '  `-' / '  `-' /  ' `-' ;   | |    \ .  
- `.__.'   `.__.'    `.__.   (___ ) (___) 
-                                                                             
+ `.__.'   `.__.'    `.__.   (___ ) (___) ********)
+     .-.                                    ,-.
+  .-(   )-.                              ,-(   )-.
+ (     __) )-.                        ,-(_      __)
+  `-(       __)                      (_    )  __)-'
+    `(____)-',                        `-(____)-'
+  - -  :   :  - -
+      / `-' \
+    ,    |   .
+         .                         _
+
+                    *****************
+               ******               ******
+           ****                           ****
+        ****                                 ***
+      ***                                       ***
+     **           ***               ***           **
+   **           *******           *******          ***
+  **            *******           *******            **
+ **             *******           *******             **
+ **               ***               ***               **
+**                                                     **
+**       *                                     *       **
+**      **                                     **      **
+ **   ****                                     ****   **
+ **      **                                   **      **
+  **       ***                             ***       **
+   ***       ****                       ****       ***
+     **         ******             ******         **
+      ***            ***************            ***
+        ****                                 ****
+           ****                           ****
+               ******               ******
+                    *****************      
+
+
+
+                                  >')
+               _   /              (\\         (W)
+              =') //               = \     -. `|'
+               ))////)             = ,-      \(| ,-
+              ( (///))           ( |/  _______\|/____
+~~~~~~~~~~~~~~~`~~~~'~~~~~~~~~~~~~\|,-'::::::::::::::
+            _                 ,----':::::::::::::::::
+         {><_'c   _      _.--':MJP:::::::::::::::::::
+__,'`----._,-. {><_'c  _-':::::::::::::::::::::::::::
+:.:.:.:.:.:.:.\_    ,-'.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:
+.:.:.:.:.:.:.:.:`--'.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.
+.....................................................                                  
 **/ 
 
 pragma solidity 0.8.9;
@@ -31,14 +77,14 @@ contract OOBK is ERC721Delegated {
     
     mapping(uint256 => string) private myUris;
 
-    string public contractURI = 'https://ipfs.io/ipfs/QmW8BXyARdoB6i35eUJAvEqreCGV9QVU1nbK9q3G5u7Kfj';
+    string public contractURI = 'https://gateway.pinata.cloud/ipfs/QmTo7KSeJYs2eA45TPhZyjshm1pTGe8iXQQjFiCxh3KfJa';
 
     constructor(
         IBaseERC721Interface baseFactory
     )
         ERC721Delegated(
           baseFactory,
-          "Oskar Oak Blodorn Kim",
+          "Oskar Kim",
           "OOBK",
           ConfigSettings({
             royaltyBps: 1000,
@@ -49,14 +95,18 @@ contract OOBK is ERC721Delegated {
       )
     {}
 
+    function burn(uint256 tokenId) external onlyOwner {
+      _burn(tokenId);
+    }
+
     function mint(string memory uri) external onlyOwner {
-        myUris[atId.current()] = uri;        
-        _mint(msg.sender, atId.current());
-        atId.increment();
+      myUris[atId.current()] = uri;        
+      _mint(msg.sender, atId.current());
+      atId.increment();
     }
 
     function tokenURI(uint256 id) external view returns (string memory) {
-        return myUris[id];
+      return myUris[id];
     }
 
     function updateContractURI(string memory _contractURI) external onlyOwner {
