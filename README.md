@@ -36,3 +36,7 @@ deploying "OOBK" (tx: 0x1d6f9872e3dec8f1da7b6d7479b98f238ef1f2073e7666b91a376df6
 deploying "OOBK" (tx: 0x54f6cf7bb3bdf7206e4dd296f3af77bb8f0f04d8fd9cc805aff5c84738d49024)...: deployed at 0x6fe2915bf7C77D52fB53DCb7775DB935B0cfe517 with 742069 gas
 
 deploying "OOBK" (tx: 0xdc7f1388c2667377b28a49a404006971546ef929d205ced0b3180e3f6c0e644d)...: deployed at 0x1294E3eFe64f5c5eCA9E0c13dC8482fD454a8F49 with 702744 gas
+
+// NAture
+deploying "Nature" (tx: 0x11ebd13e62a7c2a54ec4a738905be8eaa0dd140c136a5fb24206a26f095f7818)...: deployed at 0x75BfD4FF56fB1fC433921c007cD56cc3Cbe4e967 with 766654 gas
+
