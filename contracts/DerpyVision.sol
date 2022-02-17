@@ -32,15 +32,15 @@ contract DerpyVision is ERC721Delegated {
     
     mapping(uint256 => string) private myUris;
 
-    string public contractURI;
+    string public contractURI = 'https://gateway.pinata.cloud/ipfs/QmaFLAyDC3mT46PXnZmBWoksT6vd55xbfeUiFn9gAGiRTn';
 
     constructor(
         IBaseERC721Interface baseFactory
     )
         ERC721Delegated(
           baseFactory,
-          "DerpyVision",
-          "DVISION",
+          "Derpy~Vision",
+          "DERPYVISION",
           ConfigSettings({
             royaltyBps: 1000,
             uriBase: "",
