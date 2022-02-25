@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-3.0
 
-/** OOBK ~ Oskar's Spot on the Block! (-:
+/** Oskar's Spot on the Block! (-:
 Made this for you my Son, hope you have some
-FUN with it in your future (-; ~ Love DMBK.
+FUN with it in your future (-; ~ XO DMBK.
                    ___       ___         
                   (   )     (   )        
   .--.     .--.    | |.-.    | |   ___   
@@ -57,7 +57,7 @@ FUN with it in your future (-; ~ Love DMBK.
               ( (///))           ( |/  _______\|/____
 ~~~~~~~~~~~~~~~`~~~~'~~~~~~~~~~~~~\|,-'::::::::::::::
             _                 ,----':::::::::::::::::
-         {><_'c   _      _.--':MJP:::::::::::::::::::
+         {><_'c   _      _.--':::::::::::::::::::::::
 __,'`----._,-. {><_'c  _-':::::::::::::::::::::::::::
 :.:.:.:.:.:.:.\_    ,-'.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:
 .:.:.:.:.:.:.:.:`--'.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.
@@ -68,7 +68,6 @@ pragma solidity 0.8.9;
 
 import {IBaseERC721Interface, ConfigSettings} from "gwei-slim-nft-contracts/contracts/base/ERC721Base.sol";
 import {ERC721Delegated} from "gwei-slim-nft-contracts/contracts/base/ERC721Delegated.sol";
-
 import {CountersUpgradeable} from "@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol";
 
 contract OOBK is ERC721Delegated {
@@ -77,17 +76,17 @@ contract OOBK is ERC721Delegated {
     
     mapping(uint256 => string) private myUris;
 
-    string public contractURI = 'https://gateway.pinata.cloud/ipfs/QmTo7KSeJYs2eA45TPhZyjshm1pTGe8iXQQjFiCxh3KfJa';
+    string public contractURI = 'https://db13.mypinata.cloud/ipfs/QmT1iCt5bsLGjfxLvzVepjFXZRnkgGhKBtyowZu6U6Bwvf';
 
     constructor(
         IBaseERC721Interface baseFactory
     )
         ERC721Delegated(
           baseFactory,
-          "Oskar Kim",
+          "Oskar's World",
           "OOBK",
           ConfigSettings({
-            royaltyBps: 1000,
+            royaltyBps: 1500,
             uriBase: "",
             uriExtension: "",
             hasTransferHook: false
@@ -95,14 +94,14 @@ contract OOBK is ERC721Delegated {
       )
     {}
 
-    function burn(uint256 tokenId) external onlyOwner {
-      _burn(tokenId);
-    }
-
     function mint(string memory uri) external onlyOwner {
       myUris[atId.current()] = uri;        
       _mint(msg.sender, atId.current());
       atId.increment();
+    }
+
+    function burn(uint256 tokenId) external onlyOwner {
+      _burn(tokenId);
     }
 
     function tokenURI(uint256 id) external view returns (string memory) {

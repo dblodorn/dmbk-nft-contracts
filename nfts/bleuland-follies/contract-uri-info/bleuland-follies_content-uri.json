@@ -1,0 +1,38 @@
+{
+  "name": "Bleuland Follies",
+  "description": "𝒮𝑒𝓁𝑒𝒸𝓉𝑒𝒹 Electronic 🄿🄸🄰🄽🄾 improvisations recorded between ②⓪①⑧ & ②⓪②① 𝕮𝕰. Equipment used: Roland Juno-60, Roland MSQ-700, Yamaha DX-7, Roland TR-505 & sʇɔǝɟɟƎ.",
+  "image": "https://db13.mypinata.cloud/ipfs/QmXNw8rufLbh1cWpCagyM5qYhxuNTBfZk7R4vEDtJtx9dp",
+  "external_link": "https://follies.blue",
+  "project_content": {
+    "artist": "Dain Blodorn Kim",
+    "album_title": "Bleuland Follies",
+    "album_cover": {
+      "mime": "image/png",
+      "src": "https://db13.mypinata.cloud/ipfs/QmTLiBsTiVHPYNEDBF3NbGTjhKL1DZdvNXtVPEUETy1BTa"
+    },
+    "equipment": [
+      "Roland Juno-60",
+      "Roland MSQ-700",
+      "Yamaha DX-7",
+      "Roland TR-505"
+    ],
+    "theme": {
+      "base_unit": 4,
+      "colors": {
+        "primary": "#0d75ff",
+        "secondary": "#e0b81f",
+        "tertiary": "#c0b490"
+      },
+      "fonts": {
+        "primary": {
+          "name": "basis-grotesqe, helvetica, sans-serif",
+          "uri": "https://db13.mypinata.cloud/ipfs/QmZRZCRwm36GcPCnJS48yPdLPTyjDgnMoBWB8qxCWLscgL"
+        },
+        "secondary": {
+          "name": "SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace",
+          "uri": null
+        }
+      }
+    }
+  }
+}
