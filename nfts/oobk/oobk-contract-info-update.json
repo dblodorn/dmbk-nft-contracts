@@ -1,0 +1,29 @@
+{
+  "name": "ꪮꪮ᥇ӄ",
+  "description": "ꪮᦓᛕꪖ᥅'ᦓ ᥴ᥅ꫀꪖꪻ꠸ꪮꪀᦓ!",
+  "image": "https://db13.mypinata.cloud/ipfs/QmaDYxjL4ADHqHEJNLkqU7629BnpULYmWoaWNSDeiGqmCR",
+  "external_link": "https://oskar.kim/",
+  "seller_fee_basis_points": 1500,
+  "fee_recipient": "0xa1f75498e50b8a9b6a03ee33de4c90d71ce490c6",
+  "project_content": {
+    "artist": "Oskar Kim",
+    "theme": {
+      "base_unit": 6,
+      "colors": {
+        "primary": "#23c17c",
+        "secondary": "#faed8f",
+        "tertiary": "#ff616b"
+      },
+      "fonts": {
+        "primary": {
+          "name": "David",
+          "uri": "https://db13.mypinata.cloud/ipfs/QmZyWoi3v3Z9Cbb7AmPVRL4anJq2Ug6ntbrEEBhS3LPBpr"
+        },
+        "secondary": {
+          "name": "BBbookBold",
+          "uri": "https://db13.mypinata.cloud/ipfs/QmaRe21qZhTZnedhDHRDj7wLPw9jdFqiihkYBaPH9syqPr"
+        }
+      }
+    }
+  }
+}
