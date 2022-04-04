@@ -4,10 +4,10 @@
 ![HAPPY PERMAWEB CUSSIN' AROUND](https://db13.mypinata.cloud/ipfs/Qmb2oH1RxFSMTB9f1QUWBsjtG2vqi4XGSuLrTwGQZfC4Tx)
 
 
-`
-  #yarn hardhat deploy --network rinkeby --gasprice 100000000000 --tags [CONTRACT NAME]
+```
+  #yarn hardhat deploy --network mainnet --gasprice 69696969696 --tags [DerpyVision]
   #yarn hardhat etherscan-verify --network rinkeby / mainnet
-`
+```
 
 ### 𝕋𝕙𝕖 𝕕𝕚𝕤𝕔𝕠𝕧𝕖𝕣𝕪 𝕡𝕣𝕠𝕔𝕖𝕤𝕤 🔎
 
