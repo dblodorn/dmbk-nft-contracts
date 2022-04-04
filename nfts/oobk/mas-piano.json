@@ -1,0 +1,29 @@
+{
+  "name": "𝕄𝔸𝕊 ℙ𝕀𝔸ℕ𝕆",
+  "description": "𝓘 𝓛𝓞𝓥𝓔 𝓟𝓘𝓐𝓝𝓞!",
+  "image": "https://db13.mypinata.cloud/ipfs/QmY1UgFuVZbfFgCm5YRGwLbBke8r3GBigq3m2nnZG4A4dc",
+  "external_link": "https://dain.kim/",
+  "seller_fee_basis_points": 1000,
+  "fee_recipient": "0xBFaa232E8fEfb8Aefb39230202383B356061C06C",
+  "project_content": {
+    "artist": "𝕄𝔸𝕊 ℙ𝕀𝔸ℕ𝕆",
+    "theme": {
+      "base_unit": 6,
+      "colors": {
+        "primary": "#23c17c",
+        "secondary": "#faed8f",
+        "tertiary": "#ff616b"
+      },
+      "fonts": {
+        "primary": {
+          "name": "David",
+          "uri": "https://db13.mypinata.cloud/ipfs/QmZyWoi3v3Z9Cbb7AmPVRL4anJq2Ug6ntbrEEBhS3LPBpr"
+        },
+        "secondary": {
+          "name": "BBbookBold",
+          "uri": "https://db13.mypinata.cloud/ipfs/QmaRe21qZhTZnedhDHRDj7wLPw9jdFqiihkYBaPH9syqPr"
+        }
+      }
+    }
+  }
+}

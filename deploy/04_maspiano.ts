@@ -8,11 +8,11 @@ module.exports = async ({ getNamedAccounts, deployments }: any) => {
     baseAddress = (await deployments.get("ERC721Base")).address;
   }
 
-  await deploy("MrDainBlo", {
+  await deploy("MasPiano", {
     from: deployer,
     args: [baseAddress],
     log: true,
   });
 };
-module.exports.tags = ["MrDainBlo"];
+module.exports.tags = ["MasPiano"];
 module.exports.dependencies = ["ERC721Base"];
