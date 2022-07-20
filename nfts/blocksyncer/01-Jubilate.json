@@ -1,0 +1,36 @@
+{
+  "name": "꠹ꪊ᥇꠸ꪶꪖꪻꫀ",
+  "description": "► ᦔꪖꪀᥴꫀ ꪮꪀ 𝕥ꫝꫀ - 𝕥ⅈρ ~ ꪮ ~ ᥴꫝꪖⅈꪀ ◕‿◕ ｡◕‿◕｡ ಠ⌣ಠ (；一_一) Ƹ̵̡Ӝ̵̨̄Ʒ (づ｡◕‿‿◕｡)づ ╭∩╮(-_-)╭∩╮ ಠ_ರೃ◀︎",
+  "mimeType": "audio/mp3",
+  "animation_url": "ipfs://QmPeLz66PtUPrLu3nNSGRqyPmexaEf7UhTdj3cuTvnwoaK/jubilate.mp3",
+  "image": "ipfs://QmPeLz66PtUPrLu3nNSGRqyPmexaEf7UhTdj3cuTvnwoaK/jubilate.png",
+  "aif_url": "ipfs://QmPeLz66PtUPrLu3nNSGRqyPmexaEf7UhTdj3cuTvnwoaK/jubilate.aif",
+  "wav_url": "ipfs://QmPeLz66PtUPrLu3nNSGRqyPmexaEf7UhTdj3cuTvnwoaK/jubilate.wav",
+  "assets_url": "ipfs://QmPeLz66PtUPrLu3nNSGRqyPmexaEf7UhTdj3cuTvnwoaK",
+  "attributes": [
+    {
+      "trait_type": "Sequencers",
+      "value": "Roland MSQ-700"
+    },
+    {
+      "trait_type": "Delay",
+      "value": "Electro-Harmonix Stereo Memory Man with Hazarai"
+    },
+    {
+      "trait_type": "Drums",
+      "value": "Roland Juno-60"
+    },
+    {
+      "trait_type": "Baseline",
+      "value": "Behringer TD-3"
+    },
+    {
+      "trait_type": "Keyboards",
+      "value": "Roland Juno-60"
+    },
+    {
+      "trait_type": "BPM",
+      "value": "100"
+    }
+  ]
+}

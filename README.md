@@ -6,6 +6,7 @@
 
 ```
   #yarn hardhat deploy --network mainnet --gasprice 69696969696 --tags [DerpyVision]
+  #yarn hardhat deploy --network mainnet --gasprice 25000000000 --tags [BlockSyncer]
   #yarn hardhat etherscan-verify --network rinkeby / mainnet
 ```
 
@@ -14,6 +15,9 @@
 MrDainNFT = 628284 gas
 
 ```
+  BLOCKSYNCER:
+  deploying "BlockSyncer" (tx: 0x63f214791aea9697b2e29f98d2458796133e4b569146bd481b37640383594cc1)...: deployed at 0xf68CC00F5bF70bD39542D2E2dee3F718733408D9 with 803783 gas
+
   // first deploy with burn
   deploying "BleulandFollies" (tx: 0x56ff1ff227e1d67934fde94a937f758520f286204b0065e2b7933c7044dfa9e5)...: deployed at 0x8328Ac7E9cb02D85f1643C6Afe552a301adb2c9D with 622853 gas
 
