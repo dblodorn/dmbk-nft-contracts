@@ -1,0 +1,36 @@
+{
+  "name": "ᦓꫀꪖ᥅ᥴꫝ",
+  "description": "► ∞ ☼ ☾ ≧◉◡◉≦ ☽ ☼ ∞ ◀︎",
+  "mimeType": "audio/mp3",
+  "animation_url": "ipfs://QmVid15QRE71gTXv8Uf197GxZdTFXHctKjCH1NHo5eyQb8/search.mp3",
+  "image": "ipfs://QmVid15QRE71gTXv8Uf197GxZdTFXHctKjCH1NHo5eyQb8/search.png",
+  "aif_url": "ipfs://QmVid15QRE71gTXv8Uf197GxZdTFXHctKjCH1NHo5eyQb8/search.aif",
+  "wav_url": "ipfs://QmVid15QRE71gTXv8Uf197GxZdTFXHctKjCH1NHo5eyQb8/search.wav",
+  "assets_url": "ipfs://QmVid15QRE71gTXv8Uf197GxZdTFXHctKjCH1NHo5eyQb8",
+  "attributes": [
+    {
+      "trait_type": "Sequencers",
+      "value": "Roland MSQ-700"
+    },
+    {
+      "trait_type": "Delay",
+      "value": "Boss Digital Delay DD-3"
+    },
+    {
+      "trait_type": "Drums",
+      "value": "Roland Juno-60"
+    },
+    {
+      "trait_type": "Baseline",
+      "value": "Behringer TD-3"
+    },
+    {
+      "trait_type": "Keyboards",
+      "value": "Roland Juno-60"
+    },
+    {
+      "trait_type": "BPM",
+      "value": "80"
+    }
+  ]
+}
