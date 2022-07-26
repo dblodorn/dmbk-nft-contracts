@@ -1,0 +1,36 @@
+{
+  "name": "ꪊᦓꫀ᥅ ꠹ꪮꪊ᥅ꪀꫀꪗ",
+  "description": "『 (☾✩☽) => ~ ꐠ ꐜ ꏨ = 〠 』",
+  "mimeType": "audio/mp3",
+  "animation_url": "ipfs://QmY8XidiyronLa84oF2twfUbVniUoZKJ5WuH9KzonQu95q/user-journey.mp3",
+  "image": "ipfs://QmY8XidiyronLa84oF2twfUbVniUoZKJ5WuH9KzonQu95q/user-journey.png",
+  "aif_url": "ipfs://QmY8XidiyronLa84oF2twfUbVniUoZKJ5WuH9KzonQu95q/user-journey.aif",
+  "wav_url": "ipfs://QmY8XidiyronLa84oF2twfUbVniUoZKJ5WuH9KzonQu95q/user-journey.wav",
+  "assets_url": "ipfs://QmY8XidiyronLa84oF2twfUbVniUoZKJ5WuH9KzonQu95q",
+  "attributes": [
+    {
+      "trait_type": "Sequencers",
+      "value": "Roland MSQ-700"
+    },
+    {
+      "trait_type": "Delay",
+      "value": "Boss Digital Delay DD-3, Electro-Harmonix Stereo Memory Man with Hazarai"
+    },
+    {
+      "trait_type": "Percussion",
+      "value": "Roland Juno-60"
+    },
+    {
+      "trait_type": "Baseline",
+      "value": "Behringer TD-3"
+    },
+    {
+      "trait_type": "Keyboards",
+      "value": "Roland Juno-60"
+    },
+    {
+      "trait_type": "BPM",
+      "value": "80"
+    }
+  ]
+}
